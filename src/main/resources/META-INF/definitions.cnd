@@ -1,0 +1,11 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<rfnmix = 'http://www.rfnmix.jahia.ep.europa.eu'>
+<rfnnt = 'http://www.rfnnt.jahia.ep.europa.eu'>
+
+[rfnnt:epRfnContact] > rfnnt:epRfnContent, jmix:editorialContent, rfnmix:epRfnComponent
+ - contactName (string) mandatory
+ - contactUrl (string)
+ - contactFunction (string)
+ - contactEmail (string)
+ - contactComment (string, textarea) internationalized
+
