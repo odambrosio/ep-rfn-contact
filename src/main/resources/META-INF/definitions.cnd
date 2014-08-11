@@ -2,7 +2,7 @@
 <rfnmix = 'http://www.rfnmix.jahia.ep.europa.eu'>
 <rfnnt = 'http://www.rfnnt.jahia.ep.europa.eu'>
 
-[rfnnt:epRfnContact] > rfnnt:epRfnContent, jmix:editorialContent, rfnmix:epRfnComponent
+[rfnnt:epRfnContact] > jnt:content, jmix:editorialContent, rfnmix:epRfnComponent
  - contactName (string) mandatory
  - contactUrl (string)
  - contactFunction (string)
