@@ -1,8 +1,13 @@
 <jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<mix = 'http://www.jcp.org/jcr/mix/1.0'>
 <rfnmix = 'http://www.rfnmix.jahia.ep.europa.eu'>
 <rfnnt = 'http://www.rfnnt.jahia.ep.europa.eu'>
 
-[rfnnt:epRfnContact] > jnt:content, jmix:editorialContent, rfnmix:epRfnComponent
+[rfnnt:epRfnContactFolder] > jnt:folder, jmix:editorialContent, rfnmix:epRfnComponent, mix:title
+ + * (rfnnt:epRfnContact) = rfnnt:epRfnContact
+
+[rfnnt:epRfnContact] > jnt:content, jmix:editorialContent, rfnmix:epRfnComponent, mix:title
  - contactName (string) mandatory
  - contactUrl (string)
  - contactFunction (string)
